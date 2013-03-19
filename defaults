@@ -1,0 +1,11 @@
+module load modules
+module load use.own
+module load biostat
+module load bowtie
+module load bwa
+module load macs
+module load samtools
+module load bedtools
+module load sas
+module load mmap
+module load R
