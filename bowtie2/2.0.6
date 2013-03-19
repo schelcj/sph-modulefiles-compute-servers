@@ -1,0 +1,11 @@
+#%Module1.0
+source /usr/local/biostat/lib/modules.tcl
+source /usr/local/Modules/3.2.8/modulefiles/bowtie2/bowtie2.tcl
+
+set app     bowtie2
+set version 2.0.6
+set modroot /home/software/lucid/$app/$version
+
+conflict 2.0.6
+
+prepend-path PATH $modroot

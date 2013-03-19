@@ -1,0 +1,12 @@
+#%Module1.0
+source /usr/local/biostat/lib/modules.tcl
+source /usr/local/Modules/3.2.8/modulefiles/samtools/samtools.tcl
+
+set app     samtools
+set version 0.1.13
+set modroot /home/software/lucid/$app/$version
+
+conflict samtools
+
+prepend-path PATH    $modroot/bin
+prepend-path MANPATH $modroot/man

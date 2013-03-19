@@ -1,0 +1,11 @@
+#%Module1.0
+source /usr/local/biostat/lib/modules.tcl
+source /usr/local/Modules/3.2.8/modulefiles/bwa/bwa.tcl
+
+set app     bwa
+set version 0.5.9
+set modroot /home/software/lucid/$app/$version
+
+conflict bwa
+
+prepend-path PATH $modroot/bin

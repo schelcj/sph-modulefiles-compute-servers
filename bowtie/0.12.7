@@ -1,0 +1,13 @@
+#%Module1.0
+source /usr/local/biostat/lib/modules.tcl
+source /usr/local/Modules/3.2.8/modulefiles/bowtie/bowtie.tcl
+
+set app     bowtie
+set version 0.12.7
+set modroot /home/software/lucid/$app/$version
+
+conflict bowtie
+
+prepend-path PATH           $modroot
+prepend-path BOWTIE_INDEXES $modroot/indexes
+prepend-path BOWTIE_INDEXES $modroot/../indexes

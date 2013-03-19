@@ -1,0 +1,11 @@
+#%Module1.0
+source /usr/local/biostat/lib/modules.tcl
+source /usr/local/Modules/3.2.8/modulefiles/fastqc/fastqc.tcl
+
+set app     fastqc
+set version 0.10.1
+set modroot /home/software/lucid/$app/$version
+
+conflict fastqc
+
+prepend-path PATH $modroot

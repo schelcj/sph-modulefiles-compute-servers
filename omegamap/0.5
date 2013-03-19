@@ -1,0 +1,12 @@
+#%Module1.0
+source /usr/local/biostat/lib/modules.tcl
+source /usr/local/Modules/3.2.8/modulefiles/omegamap/omegamap.tcl
+
+set app     omegamap
+set version 0.5
+set modroot /home/software/lucid/$app/$version
+
+conflict omegamap
+
+prepend-path PATH                 $modroot/bin
+prepend-path R_OMEGAMAP_FUNCTIONS $modroot/lib/R-functions.txt

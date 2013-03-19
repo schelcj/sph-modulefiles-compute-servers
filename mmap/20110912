@@ -1,0 +1,11 @@
+#%Module1.0
+source /usr/local/biostat/lib/modules.tcl
+source /usr/local/Modules/3.2.8/modulefiles/mmap/mmap.tcl
+
+set app     mmap
+set version 20110912
+set modroot /home/software/lucid/$app/$version
+
+conflict mmap
+
+prepend-path PATH $modroot/bin

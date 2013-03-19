@@ -1,0 +1,15 @@
+#%Module1.0
+source /usr/local/biostat/lib/modules.tcl
+source /usr/local/Modules/3.2.8/modulefiles/jags/jags.tcl
+
+set app     jags
+set version 3.1.0
+set modroot /home/software/lucid/$app/$version
+
+conflict jags
+
+prepend-path PATH             $modroot/bin
+prepend-path MANPATH          $modroot/share/man
+prepend-path LD_LIBRARY_PATH  $modroot/lib
+prepend-path JAGS_INCLUDE     $modroot/include/JAGS
+prepend-path JAGS_LIB         $modroot/lib

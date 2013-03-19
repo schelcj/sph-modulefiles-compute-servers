@@ -1,0 +1,11 @@
+#%Module1.0
+source /usr/local/biostat/lib/modules.tcl
+source /usr/local/Modules/3.2.8/modulefiles/cufflinks/cufflinks.tcl
+
+set app     cufflinks
+set version 2.0.2
+set modroot /home/software/lucid/$app/$version
+
+conflict cufflinks
+
+prepend-path PATH $modroot
