@@ -1,6 +1,6 @@
 #%Module1.0
 source /usr/local/biostat/lib/modules.tcl
-source /usr/local/Modules/3.2.8/modulefiles/picard/picard.tcl
+source /home/software/lucid/Modules/modulefiles/picard/picard.tcl
 
 set app     picard
 set version 1.84

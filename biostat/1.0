@@ -1,6 +1,6 @@
 #%Module1.0
 source /usr/local/biostat/lib/modules.tcl
-source /usr/local/Modules/3.2.8/modulefiles/biostat/biostat.tcl
+source /home/software/lucid/Modules/modulefiles/biostat/biostat.tcl
 
 set app     biostat
 set modroot /usr/local/$app

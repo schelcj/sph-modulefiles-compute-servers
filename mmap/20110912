@@ -1,6 +1,6 @@
 #%Module1.0
 source /usr/local/biostat/lib/modules.tcl
-source /usr/local/Modules/3.2.8/modulefiles/mmap/mmap.tcl
+source /home/software/lucid/Modules/modulefiles/mmap/mmap.tcl
 
 set app     mmap
 set version 20110912
