@@ -9,3 +9,4 @@ module load bedtools
 module load sas
 module load mmap
 module load R
+module load perl
