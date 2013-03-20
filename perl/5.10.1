@@ -1,0 +1,12 @@
+#%Module1.0
+source /home/software/lucid/Modules/modulefiles//modules.tcl
+source /home/software/lucid/Modules/modulefiles/biostat/biostat.tcl
+
+set app     perl
+set modroot /home/software/lucid/perl/5.10.1
+
+conflict perl 
+
+prepend-path PATH     $modroot/bin
+prepend-path PERL5LIB $modroot/lib/perl5
+prepend-path MANPATH  $modroot/man
