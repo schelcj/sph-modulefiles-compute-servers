@@ -3,7 +3,7 @@ source /home/software/lucid/Modules/modulefiles/modules.tcl
 source /home/software/lucid/Modules/modulefiles/biostat/biostat.tcl
 
 set app     biostat
-set modroot /usr/local/$app
+set modroot /home/software/lucid/$app
 
 conflict biostat
 
